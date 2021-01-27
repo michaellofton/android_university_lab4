@@ -27,7 +27,12 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class NYTimesApiClient {
 
     // TODO: Replace the below API key with your own generated key
-    private static final String API_KEY = "<YOUR-API-KEY-GOES-HERE>";
+    /**
+     * Checkpoint #1 - API Key
+     * Go to https://developer.nytimes.com/get-started and create an account to get a key
+     * or use the same API key if you already have one.
+     */
+    private static final String API_KEY = "q9Bf5NSGAL4fKrDUb2G3OnWiHV5T5yB2";
 
     // returns the
     private static final String API_FILTER = "headline, web_url, snippet, pub_date, word_count, print_page, print_section, section_name";
